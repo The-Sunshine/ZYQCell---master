@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF868C9B1EF8AFE700E5F947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF868C9A1EF8AFE700E5F947 /* main.m */; };
+		CF868C9E1EF8AFE900E5F947 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF868C9D1EF8AFE800E5F947 /* AppDelegate.m */; };
+		CF868CA11EF8AFE900E5F947 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF868CA01EF8AFE900E5F947 /* ViewController.m */; };
+		CF868CA41EF8AFEE00E5F947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF868CA21EF8AFEE00E5F947 /* Main.storyboard */; };
+		CF868CA61EF8AFEF00E5F947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF868CA51EF8AFEF00E5F947 /* Assets.xcassets */; };
+		CF868CA91EF8AFF100E5F947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF868CA71EF8AFF100E5F947 /* LaunchScreen.storyboard */; };
+		CF868CB41EF8AFF600E5F947 /* cell____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF868CB31EF8AFF600E5F947 /* cell____Tests.m */; };
+		CF868CBF1EF8AFF800E5F947 /* cell____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF868CBE1EF8AFF800E5F947 /* cell____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF868CB01EF8AFF500E5F947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF868C8E1EF8AFE500E5F947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF868C951EF8AFE600E5F947;
+			remoteInfo = "cell数据混乱";
+		};
+		CF868CBB1EF8AFF700E5F947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF868C8E1EF8AFE500E5F947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF868C951EF8AFE600E5F947;
+			remoteInfo = "cell数据混乱";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF868C961EF8AFE600E5F947 /* cell数据混乱.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cell数据混乱.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF868C9A1EF8AFE700E5F947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF868C9C1EF8AFE800E5F947 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF868C9D1EF8AFE800E5F947 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF868C9F1EF8AFE900E5F947 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF868CA01EF8AFE900E5F947 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF868CA31EF8AFEE00E5F947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF868CA51EF8AFEF00E5F947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF868CA81EF8AFF100E5F947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF868CAA1EF8AFF400E5F947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF868CAF1EF8AFF500E5F947 /* cell数据混乱Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cell数据混乱Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF868CB31EF8AFF600E5F947 /* cell____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "cell____Tests.m"; sourceTree = "<group>"; };
+		CF868CB51EF8AFF700E5F947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF868CBA1EF8AFF700E5F947 /* cell数据混乱UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cell数据混乱UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF868CBE1EF8AFF800E5F947 /* cell____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "cell____UITests.m"; sourceTree = "<group>"; };
+		CF868CC01EF8AFF800E5F947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF868C931EF8AFE600E5F947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF868CAC1EF8AFF500E5F947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF868CB71EF8AFF700E5F947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF868C8D1EF8AFE500E5F947 = {
+			isa = PBXGroup;
+			children = (
+				CF868C981EF8AFE600E5F947 /* cell数据混乱 */,
+				CF868CB21EF8AFF500E5F947 /* cell数据混乱Tests */,
+				CF868CBD1EF8AFF700E5F947 /* cell数据混乱UITests */,
+				CF868C971EF8AFE600E5F947 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF868C971EF8AFE600E5F947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF868C961EF8AFE600E5F947 /* cell数据混乱.app */,
+				CF868CAF1EF8AFF500E5F947 /* cell数据混乱Tests.xctest */,
+				CF868CBA1EF8AFF700E5F947 /* cell数据混乱UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF868C981EF8AFE600E5F947 /* cell数据混乱 */ = {
+			isa = PBXGroup;
+			children = (
+				CF868C9C1EF8AFE800E5F947 /* AppDelegate.h */,
+				CF868C9D1EF8AFE800E5F947 /* AppDelegate.m */,
+				CF868C9F1EF8AFE900E5F947 /* ViewController.h */,
+				CF868CA01EF8AFE900E5F947 /* ViewController.m */,
+				CF868CA21EF8AFEE00E5F947 /* Main.storyboard */,
+				CF868CA51EF8AFEF00E5F947 /* Assets.xcassets */,
+				CF868CA71EF8AFF100E5F947 /* LaunchScreen.storyboard */,
+				CF868CAA1EF8AFF400E5F947 /* Info.plist */,
+				CF868C991EF8AFE700E5F947 /* Supporting Files */,
+			);
+			path = "cell数据混乱";
+			sourceTree = "<group>";
+		};
+		CF868C991EF8AFE700E5F947 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF868C9A1EF8AFE700E5F947 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF868CB21EF8AFF500E5F947 /* cell数据混乱Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF868CB31EF8AFF600E5F947 /* cell____Tests.m */,
+				CF868CB51EF8AFF700E5F947 /* Info.plist */,
+			);
+			path = "cell数据混乱Tests";
+			sourceTree = "<group>";
+		};
+		CF868CBD1EF8AFF700E5F947 /* cell数据混乱UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF868CBE1EF8AFF800E5F947 /* cell____UITests.m */,
+				CF868CC01EF8AFF800E5F947 /* Info.plist */,
+			);
+			path = "cell数据混乱UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF868C951EF8AFE600E5F947 /* cell数据混乱 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF868CC31EF8AFF800E5F947 /* Build configuration list for PBXNativeTarget "cell数据混乱" */;
+			buildPhases = (
+				CF868C921EF8AFE600E5F947 /* Sources */,
+				CF868C931EF8AFE600E5F947 /* Frameworks */,
+				CF868C941EF8AFE600E5F947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cell数据混乱";
+			productName = "cell数据混乱";
+			productReference = CF868C961EF8AFE600E5F947 /* cell数据混乱.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF868CAE1EF8AFF500E5F947 /* cell数据混乱Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF868CC61EF8AFF800E5F947 /* Build configuration list for PBXNativeTarget "cell数据混乱Tests" */;
+			buildPhases = (
+				CF868CAB1EF8AFF500E5F947 /* Sources */,
+				CF868CAC1EF8AFF500E5F947 /* Frameworks */,
+				CF868CAD1EF8AFF500E5F947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF868CB11EF8AFF500E5F947 /* PBXTargetDependency */,
+			);
+			name = "cell数据混乱Tests";
+			productName = "cell数据混乱Tests";
+			productReference = CF868CAF1EF8AFF500E5F947 /* cell数据混乱Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF868CB91EF8AFF700E5F947 /* cell数据混乱UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF868CC91EF8AFF800E5F947 /* Build configuration list for PBXNativeTarget "cell数据混乱UITests" */;
+			buildPhases = (
+				CF868CB61EF8AFF700E5F947 /* Sources */,
+				CF868CB71EF8AFF700E5F947 /* Frameworks */,
+				CF868CB81EF8AFF700E5F947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF868CBC1EF8AFF700E5F947 /* PBXTargetDependency */,
+			);
+			name = "cell数据混乱UITests";
+			productName = "cell数据混乱UITests";
+			productReference = CF868CBA1EF8AFF700E5F947 /* cell数据混乱UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF868C8E1EF8AFE500E5F947 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = bjzyzl;
+				TargetAttributes = {
+					CF868C951EF8AFE600E5F947 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CF868CAE1EF8AFF500E5F947 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF868C951EF8AFE600E5F947;
+					};
+					CF868CB91EF8AFF700E5F947 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF868C951EF8AFE600E5F947;
+					};
+				};
+			};
+			buildConfigurationList = CF868C911EF8AFE500E5F947 /* Build configuration list for PBXProject "cell数据混乱" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF868C8D1EF8AFE500E5F947;
+			productRefGroup = CF868C971EF8AFE600E5F947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF868C951EF8AFE600E5F947 /* cell数据混乱 */,
+				CF868CAE1EF8AFF500E5F947 /* cell数据混乱Tests */,
+				CF868CB91EF8AFF700E5F947 /* cell数据混乱UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF868C941EF8AFE600E5F947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF868CA91EF8AFF100E5F947 /* LaunchScreen.storyboard in Resources */,
+				CF868CA61EF8AFEF00E5F947 /* Assets.xcassets in Resources */,
+				CF868CA41EF8AFEE00E5F947 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF868CAD1EF8AFF500E5F947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF868CB81EF8AFF700E5F947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF868C921EF8AFE600E5F947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF868CA11EF8AFE900E5F947 /* ViewController.m in Sources */,
+				CF868C9E1EF8AFE900E5F947 /* AppDelegate.m in Sources */,
+				CF868C9B1EF8AFE700E5F947 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF868CAB1EF8AFF500E5F947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF868CB41EF8AFF600E5F947 /* cell____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF868CB61EF8AFF700E5F947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF868CBF1EF8AFF800E5F947 /* cell____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF868CB11EF8AFF500E5F947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF868C951EF8AFE600E5F947 /* cell数据混乱 */;
+			targetProxy = CF868CB01EF8AFF500E5F947 /* PBXContainerItemProxy */;
+		};
+		CF868CBC1EF8AFF700E5F947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF868C951EF8AFE600E5F947 /* cell数据混乱 */;
+			targetProxy = CF868CBB1EF8AFF700E5F947 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF868CA21EF8AFEE00E5F947 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF868CA31EF8AFEE00E5F947 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF868CA71EF8AFF100E5F947 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF868CA81EF8AFF100E5F947 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF868CC11EF8AFF800E5F947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF868CC21EF8AFF800E5F947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF868CC41EF8AFF800E5F947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cell数据混乱/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjzyzl.cell----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF868CC51EF8AFF800E5F947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cell数据混乱/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjzyzl.cell----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF868CC71EF8AFF800E5F947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cell数据混乱Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjzyzl.cell----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cell数据混乱.app/cell数据混乱";
+			};
+			name = Debug;
+		};
+		CF868CC81EF8AFF800E5F947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cell数据混乱Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjzyzl.cell----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cell数据混乱.app/cell数据混乱";
+			};
+			name = Release;
+		};
+		CF868CCA1EF8AFF800E5F947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cell数据混乱UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjzyzl.cell----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "cell数据混乱";
+			};
+			name = Debug;
+		};
+		CF868CCB1EF8AFF800E5F947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cell数据混乱UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bjzyzl.cell----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "cell数据混乱";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF868C911EF8AFE500E5F947 /* Build configuration list for PBXProject "cell数据混乱" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF868CC11EF8AFF800E5F947 /* Debug */,
+				CF868CC21EF8AFF800E5F947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF868CC31EF8AFF800E5F947 /* Build configuration list for PBXNativeTarget "cell数据混乱" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF868CC41EF8AFF800E5F947 /* Debug */,
+				CF868CC51EF8AFF800E5F947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF868CC61EF8AFF800E5F947 /* Build configuration list for PBXNativeTarget "cell数据混乱Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF868CC71EF8AFF800E5F947 /* Debug */,
+				CF868CC81EF8AFF800E5F947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF868CC91EF8AFF800E5F947 /* Build configuration list for PBXNativeTarget "cell数据混乱UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF868CCA1EF8AFF800E5F947 /* Debug */,
+				CF868CCB1EF8AFF800E5F947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF868C8E1EF8AFE500E5F947 /* Project object */;
+}
